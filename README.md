@@ -8,13 +8,31 @@ Prolog is a declarative programming language. This means that in Prolog, you do 
 sudo pacman -S gprolog
 ```
 
-## How to running ( Arch Linux )
+## Setup ( MacOS )
+```
+brew install gnu-prolog
+```
+
+## How to running ( Arch Linux && MacOS)
 ```
 gprolog
 (it's open)
+
+change_directory('your_directory_path').
+
 consult('les1.pl').
 ```
 
 ## Tutorials
 - https://www.tutorialspoint.com/prolog/prolog_hello_world.htm
 - http://athena.ecs.csus.edu/~mei/logicp/prolog/programming-examples.html
+
+### Notes
+``` 
+write('hello'). 
+
+write('new'), nl, 
+write('line').
+
+write('Let\'s go!!').
+```
